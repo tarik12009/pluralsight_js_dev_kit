@@ -10,3 +10,7 @@ express (static + API in node + configurable) vs koa vs hapi
 budo (integrated with browserify + hot reloading)
 webpack (serves from memory ° hot reloading)
 browsersync (dedicated ip + all interaction are in sync in instances of the loaded app, google for cross-device testing + integrated with webpack, browserify, Gulp ...)
+
+rendring engine:
+vash
+jade

@@ -25,3 +25,8 @@ automation:
 grunt
 gulp
 npm scripts
+
+Transpilers:
+Babel (standarized JS)
+Typescript (type support : enhance autocompletion and safe refactoring + add non standard features)
+Elm (new lang, functional paradigm, supposedly impossible to have runtime error)

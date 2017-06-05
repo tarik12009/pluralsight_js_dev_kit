@@ -16,10 +16,10 @@ vash
 jade
 
 sharing work in progress :
-localtunnel
-ngrok
-now
-surge
+localtunnel (create a hole in the firewall and uses a public proxy to forward to your app)
+ngrok ( same but more secure : uses autentification (token))
+now (upload app to the cloud (static + node modules))
+surge (same but just static)
 
 automation:
 grunt
@@ -30,3 +30,21 @@ Transpilers:
 Babel (standarized JS)
 Typescript (type support : enhance autocompletion and safe refactoring + add non standard features)
 Elm (new lang, functional paradigm, supposedly impossible to have runtime error)
+
+Module formats:
+Globals
+IIFE
+CJS (CommonJS)
+AMD
+UMD
+ES6
+SJS (SystemJS)
+
+bundlers:
+webpack (loaders (CSS, images, fonts), hot-reloading web server)
+browserify (bundles npm package, plugins (minification, linting, tranpling ..))
+rollup (NEW, tree shaking, faster loading : all module in one scope compared to inline module loader) ???!!
+JSPM
+
+webpack - Questions:
+devtool: 'inline-source-map', // ????

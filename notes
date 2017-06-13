@@ -41,10 +41,11 @@ ES6
 SJS (SystemJS)
 
 bundlers:
-webpack (loaders (CSS, images, fonts), hot-reloading web server)
+webpack (loaders (CSS, images, fonts), hot-reloading web server, version2 have tree shaking)
 browserify (bundles npm package, plugins (minification, linting, tranpling ..))
 rollup (NEW, tree shaking, faster loading : all module in one scope compared to inline module loader) ???!!
 JSPM
 
 webpack - Questions:
 devtool: 'inline-source-map', // ????
+publicPath ??

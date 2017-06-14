@@ -1,0 +1,20 @@
+{
+  "root": true, // this tell eslint that this is the root folder and there is no need to check other parent folders
+  "extends": [
+    "eslint:recommended", // we use the recommanded preset
+    "plugin:import/errors", // enhanced ES6 imports 
+    "plugin:import/warnings" // enhanced ES6 imports 
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7, // ecmascript 7 (2016)
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-console" : 1 // 2 Error, 1 Warning, 0 Nothing
+  }
+}

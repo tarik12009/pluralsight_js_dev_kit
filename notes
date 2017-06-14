@@ -49,3 +49,22 @@ JSPM
 webpack - Questions:
 devtool: 'inline-source-map', // ????
 publicPath ??
+
+Linters:
+JSLint (first ... created by Crockford Douglas)
+JSHint (improvement over JSLint + configurability)
+ESLint (De facto standard)
+TSLint (For typescript)
+
+ESLint - decisions:
+1- Config format (.eslintrc (.js, .yaml, .yml, .json) or package.json)
+2- Which built-in rules? http://eslint.org/docs/rules/
+3- Warning or errors
+4- Which plugins https://github.com/dustinspecker/awesome-eslint
+5- Use preset instead (From scratch, Recommanded (bit.ly/jsdeveslint), Presets(airbnb, standard JS, XO))
+
+run eslint form command each time you save
+use eslint-loader (Webpack)
+use eslint-watch (npm package)
+
+babel-eslint (for linting experimental features - stage 0-4)
